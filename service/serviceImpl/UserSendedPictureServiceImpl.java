@@ -12,7 +12,7 @@ import cn.edu.bjtu.weibo.dao.WeiboDAO;
 import cn.edu.bjtu.weibo.model.Picture;
 import cn.edu.bjtu.weibo.service.UserSendedPictureService;
 
-@Service("UserSendedPictureService")
+@Service("userSendedPictureService")
 public class UserSendedPictureServiceImpl implements UserSendedPictureService {
 	@Autowired
 	private UserDAO userDao;

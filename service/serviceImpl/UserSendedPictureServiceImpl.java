@@ -42,8 +42,9 @@ public class UserSendedPictureServiceImpl implements UserSendedPictureService {
 				else if(count1>=end){
 					for(int j=1;j<=list2.size()+end-count1;j++){
 						l.add(pictureService.getPicture(list2.get(j-1)));
-				     }
-			    }
+				    	 }
+                                    break;
+			    	}
 				else{
 					for(int j=1;j<=list2.size();j++){
 						l.add(pictureService.getPicture(list2.get(j-1)));
